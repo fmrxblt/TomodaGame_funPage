@@ -13,6 +13,7 @@
 
  body {
     font-family: "Monserrat";
+    background-color: rgb(25, 25, 25);
  }
 
 header, footer, section{ 
@@ -55,11 +56,11 @@ h1, h2, h3 {
 }
 
 .header .menu ul li a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .header .menu ul li a:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 /* PROMO */
@@ -70,7 +71,7 @@ h1, h2, h3 {
 
 .promo .container {
      display: flex;
-     background-color: rgb(255, 255, 255);
+     background-color: rgb(25, 25, 25);
 }
 
 .promo .right_block img{
@@ -79,20 +80,20 @@ h1, h2, h3 {
 }
 
 .promo .left_block h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .promo .left_block p {
     font-size: 20px;
     padding-bottom: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .promo .left_block a {
     text-transform: uppercase;
     display: block;
     background-color: #59728b;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 20px;
     width: 300px;
     border-radius: 10px;
@@ -104,7 +105,7 @@ h1, h2, h3 {
     text-transform: uppercase;
     display: block;
     background-color: #243545;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 20px;
     width: 300px;
     border-radius: 10px;
@@ -132,6 +133,8 @@ h1, h2, h3 {
     text-align: center;
     margin-bottom: 0%;
     padding-top: 20px;
+    margin-top: 0px;
+    color: white;
 }
 
 .about .container ul{
@@ -139,21 +142,30 @@ h1, h2, h3 {
     font-size: 20px;
     margin-left: 30%;
     margin-top: 0px;
+    color: white;
 }
 
 .about ul li {
     margin: 15px;
+    color: white;
 }
 
 /* CARDS */
 
+.cards {
+    background-color: rgb(25, 25, 25);
+}
+
 .cards h3 {
     text-align: center;
+    color: white;
+    /* margin-top: 0px; */
 }
 
 .cards .container {
     display: flex;
     justify-content: space-around;
+    background-color:  rgb(25, 25, 25);
 }
 
 .cards .card img {
@@ -168,6 +180,7 @@ h1, h2, h3 {
 .cards .card h4 {
     margin: 10px;
     font-size: large;
+    color: white;
 }
 
 /* SLIDER */
@@ -212,12 +225,17 @@ h5 {
     font-size: 36px;
     padding-top: 15px;
     padding-bottom: 15px;
+    color: white;
 }
 /* VIDEO */
 
 .video .container {
     text-align: center;
     padding-bottom: 20px;
+}
+
+.video h2 {
+    color: white;
 }
 
 /* FOOTER */
@@ -232,6 +250,7 @@ h5 {
     font-size: large;
     padding: 22px;
     font-weight: bold;
+    color: white;
 }
 
 .desktop-menu {
